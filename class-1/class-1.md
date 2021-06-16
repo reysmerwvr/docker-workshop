@@ -80,3 +80,13 @@ bash - zsh - sh - powershell
 docker exec -it 67277ae09623 sh # exec: run another command, -it: allow us to provide input to the container, alt + D or cmd + D to exit
 docker run -it busybox sh
 ```
+
+> Container isolation
+
+Execute in separate terminal windows
+
+```bash
+docker run -it busybox sh
+docker run -it busybox sh
+```
+
