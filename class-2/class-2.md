@@ -14,9 +14,13 @@ Create an image that runs redis-server
 
 - Create the Dockerfile and then:
 
-docker build -t <image-name> .
+docker build -t <docker_id>/<image-name>:<version> .
 
 ```bash
-docker build -t alpine-node-lts . #sha256:4b52b9a578740a5a25e7fdd42a0bdf6ff9c256c3d65477
+docker build -t reysmerwvr/alpine-node-lts:latest . #sha256:4b52b9a578740a5a25e7fdd42a0bdf6ff9c256c3d65477
 docker run -it sha256:4b52b9a578740a5a25e7fdd42a0bdf6ff9c256c3d65477 bash
 ```
+
+## Manual Image Generation with Docker Commit
+
+docker commit -c 'CMD ["<image_name>"]' <CONTAINER_ID>
