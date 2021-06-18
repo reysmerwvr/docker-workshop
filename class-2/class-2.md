@@ -24,3 +24,11 @@ docker run -it sha256:4b52b9a578740a5a25e7fdd42a0bdf6ff9c256c3d65477 bash
 ## Manual Image Generation with Docker Commit
 
 docker commit -c 'CMD ["<image_name>"]' <CONTAINER_ID>
+
+```bash
+docker run -it alpine sh
+# apk add --update redis
+docker ps
+docker commit -c 'CMD ["redis-server"]' 39075447a383
+docker run 39075447a383
+```
