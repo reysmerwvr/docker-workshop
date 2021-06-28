@@ -35,6 +35,7 @@ cd visits
 docker-compose up -d
 docker ps
 docker-compose down
+docker-compose ps
 ```
 
 ### TODO

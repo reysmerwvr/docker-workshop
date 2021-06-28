@@ -1,4 +1,4 @@
-# simpleweb
+# Simple Web
 
 Simple Web NodeJs Application. Example to demonstrate Docker concepts
 
@@ -39,7 +39,6 @@ docker run -p 8080:8080 <image_id>
 ### TODO
   [ ] Write tests
   [ ] Add code comments
-  [ ] Add server validations
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does 
 its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
