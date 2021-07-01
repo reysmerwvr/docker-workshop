@@ -1,0 +1,3 @@
+[submodule "class-5/dark-mode-app"]
+	path = class-5/dark-mode-app
+	url = git@github.com:reysmerwvr/dark-mode-app.git
