@@ -1,3 +1,6 @@
 [submodule "class-5/dark-mode-app"]
 	path = class-5/dark-mode-app
 	url = git@github.com:reysmerwvr/dark-mode-app.git
+[submodule "class-6/multi-docker"]
+	path = class-6/multi-docker
+	url = git@github.com:reysmerwvr/multi-docker.git
