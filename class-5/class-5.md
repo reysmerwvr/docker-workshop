@@ -52,3 +52,11 @@ Using nginx
 - Use nginx
 - Copy over the result of 'yarn build'
 - Start nginx
+
+## Single Container Setup
+
+- Setup code to github
+- Travis automatically pulls repo
+- Travis builds and image, tests code
+- Travis pushes code to AWS Elasticbeanstalk
+- Elasticbeanstalk builds image, deploys it
